@@ -12,7 +12,7 @@ import { Header } from "@/components/header"
 import { useOrders } from "@/hooks/useLocalStorage"
 
 export default function OrdersPage() {
-  const { orders, loading, updateOrder } = useOrders()
+  const { orders, loading } = useOrders()
   const [searchTerm, setSearchTerm] = useState("")
 
   // Filter orders based on search term
