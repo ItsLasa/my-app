@@ -11,8 +11,6 @@ const navigation = [
   { name: "Customers", href: "/customers", icon: Users },
   { name: "Categories", href: "/categories", icon: Tag },
   { name: "Add New Product", href: "/add-product", icon: Plus },
-  { name: "Reviews", href: "/reviews", icon: Star },
-  { name: "Reports & Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Settings", href: "/settings", icon: Settings },
 ]
 

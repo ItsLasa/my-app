@@ -13,6 +13,7 @@ import { ProductModal } from "@/components/product-modal"
 import { DeleteConfirmationModal } from "@/components/delete-confirmation-modal"
 import { useProducts } from "@/hooks/useLocalStorage"
 import type { Product } from "@/types"
+import Image from "next/image"
 
 export default function ProductsPage() {
   const { products, loading, addProduct, updateProduct, deleteProduct } = useProducts()
@@ -177,7 +178,7 @@ export default function ProductsPage() {
                       <TableRow key={product.id} className="border-[#e5e7eb]">
                         <TableCell>
                           <div className="flex items-center gap-3">
-                            <img
+                            <Image
                               src={product.images[0] || "/placeholder.svg?height=40&width=40"}
                               alt={product.name}
                               className="w-10 h-10 rounded-lg bg-[#f3f4f6]"
