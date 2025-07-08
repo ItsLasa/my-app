@@ -46,7 +46,7 @@ export default function Component() {
         <main className="flex-1 p-6 overflow-auto">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-[#111827] mb-2">Dashboard Overview</h2>
-            <p className="text-[#6b7280]">Welcome back! Here's what's happening with your store today.</p>
+            <p className="text-[#6b7280]">Welcome back! Here&apos;s what&apos;s happening with your store today.</p>
           </div>
 
           {/* KPI Cards */}
@@ -202,7 +202,7 @@ export default function Component() {
                           <TableCell className="font-medium text-[#111827]">{order.id}</TableCell>
                           <TableCell className="text-[#6b7280]">{order.customerName}</TableCell>
                           <TableCell className="text-[#6b7280]">
-                            {order.items[0]?.productName || "N/A"}
+                            {order.items[0]?.productName || "N&apos;A"}
                             {order.items.length > 1 && ` +${order.items.length - 1} more`}
                           </TableCell>
                           <TableCell>
