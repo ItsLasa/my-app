@@ -37,7 +37,7 @@ export function DeleteConfirmationModal({
 
         <div className="bg-[#fef2f2] border border-[#fecaca] rounded-lg p-3 mb-6">
           <p className="text-sm text-[#dc2626]">
-            <strong>"{itemName}"</strong> will be permanently deleted. This action cannot be undone.
+            <strong>&quot;{itemName}&quot;</strong> will be permanently deleted. This action cannot be undone.
           </p>
         </div>
 
