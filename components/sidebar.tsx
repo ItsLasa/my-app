@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { ShoppingCart, Package, Users, Tag, Plus, Star, BarChart3, Settings, LogOut } from "lucide-react"
+import { ShoppingCart, Package, Users, Tag, Plus, BarChart3, Settings, LogOut } from "lucide-react"
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: BarChart3 },
